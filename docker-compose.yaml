@@ -6,7 +6,7 @@ services:
       image: catalouge:vi
       container_name: catalouge
       depends_on:
-       -mongodb
+       - mongodb
   redis:
       image: redis:v1
       contianer_name: redis
