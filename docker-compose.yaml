@@ -1,5 +1,5 @@
 services:
-  monogodb:
+  mongodb:
       image: mongodb:v1
       container_name: mongodb
   catalouge:
