@@ -9,7 +9,7 @@ services:
        - mongodb
   redis:
       image: redis:v1
-      contianer_name: redis
+      container_name: redis
   mysql:
       image: mysql:v1
       container_name: mysql
