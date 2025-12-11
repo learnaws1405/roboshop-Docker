@@ -1,0 +1,9 @@
+services:
+  monogodb:
+      image: mongodb:v1
+
+networks:
+  default:
+    driver: bridge
+    name: roboshop
+    external: false
