@@ -2,7 +2,7 @@ services:
   mongodb:
       image: mongodb:v1
       container_name: mongodb
-      volume: 
+      volumes: 
        - mongodb:/data/db
   catalouge:
       image: catalouge:v1
