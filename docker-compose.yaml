@@ -2,11 +2,11 @@ services:
   mongodb:
       image: mongodb:v1
       container_name: mongodb
-#   catalouge:
-#       image: catalouge:vi
-#       container_name: catalouge
-#       depends_on:
-#        - mongodb
+  catalouge:
+      image: catalouge:vi
+      container_name: catalouge
+      depends_on:
+       - mongodb
 #   redis:
 #       image: redis:7.0
 #       container_name: redis
