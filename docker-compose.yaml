@@ -3,7 +3,7 @@ services:
       image: mongodb:v1
       container_name: mongodb
   catalouge:
-      image: catalouge:vi
+      image: catalouge:v1
       container_name: catalouge
       depends_on:
        - mongodb
